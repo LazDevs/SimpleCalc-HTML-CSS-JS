@@ -65,7 +65,7 @@
 						<input type="button" name="zero" value="0" onclick="calc.display.value += '0'">
 					</td>
 					<td>
-						<input type="button" name="ravno" value="=" onclick="calc.display.value += eval(calc.display.value);">
+						<input type="button" name="ravno" value="=" onclick="calc.display.value = eval(calc.display.value);">
 					</td>
 					<td>
 						<input type="button" class="operator" name="tobe" value="/" onclick="calc.display.value += '/'">
